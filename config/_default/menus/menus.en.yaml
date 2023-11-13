@@ -7881,6 +7881,19 @@ api:
         - GetUsageApplicationSecurityMonitoring
       unstable: []
       order: 38
+  - name: Get Monthly Cost Attribution
+    url: '#get-monthly-cost-attribution'
+    identifier: usage-metering-get-monthly-cost-attribution
+    parent: usage-metering
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - GetMonthlyCostAttribution
+      unstable:
+        - v2
+      order: 5
   - name: Get all custom metrics by hourly average
     url: '#get-all-custom-metrics-by-hourly-average'
     identifier: usage-metering-get-all-custom-metrics-by-hourly-average
