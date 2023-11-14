@@ -7557,6 +7557,18 @@ api:
         - UpdateBrowserTest
       unstable: []
       order: 4
+  - name: Patch a Synthetics test
+    url: '#patch-a-synthetics-test'
+    identifier: synthetics-patch-a-synthetics-test
+    parent: synthetics
+    generated: true
+    params:
+      versions:
+        - v1
+      operationids:
+        - PatchTest
+      unstable: []
+      order: 5
   - name: Get a browser test
     url: '#get-a-browser-test'
     identifier: synthetics-get-a-browser-test

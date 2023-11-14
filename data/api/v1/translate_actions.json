@@ -894,6 +894,12 @@
     "description": "Get the detailed configuration (including steps) associated with\na Synthetic browser test.",
     "summary": "Get a browser test"
   },
+  "PatchTest": {
+    "description": "Patch the configuration of a Synthetic test with partial data.",
+    "summary": "Patch a Synthetics test",
+    "request_description": "[JSON Patch](https://jsonpatch.com/) compliant list of operations",
+    "request_schema_description": "Wrapper around an array of [JSON Patch](https://jsonpatch.com) operations to perform on the test"
+  },
   "UpdateBrowserTest": {
     "description": "Edit the configuration of a Synthetic browser test.",
     "summary": "Edit a browser test",
